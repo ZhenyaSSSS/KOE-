@@ -1,0 +1,68 @@
+{
+    "menu": {
+        "title": "KOE!",
+        "play": "Play",
+        "settings": "Settings",
+        "exit": "Exit"
+    },
+    "settings": {
+        "title": "Settings",
+        "language": "Language",
+        "volume": "Volume",
+        "display_mode": "Display Mode",
+        "save": "Save",
+        "back": "Back",
+        "saved": "Settings saved.",
+        "resolution": "Resolution",
+        "output_device": "Output Device",
+        "input_device": "Input Device",
+        "volume_indicator": "Volume Indicator",
+        "audio_driver": "Audio Driver",
+        "device_name": "Device Name",
+        "blur_background": "Blur Background"
+    },
+    "song_select": {
+        "title": "Select a Song",
+        "select": "Select",
+        "back": "Back",
+        "no_song_selected": "No song selected.",
+        "sort_by": "Sort by...",
+        "start": "Start",
+        "start_game_error": "Error starting the game.",
+        "select_song_first": "Select a song first.",
+        "preview_error": "Error loading preview."
+    },
+    "results": {
+        "title": "Results",
+        "score": "Score: {score}",
+        "accuracy": "Accuracy: {accuracy:.2f}%",
+        "max_combo": "Max Combo: {max_combo}",
+        "replay": "Replay",
+        "back_to_menu": "Back to Menu"
+    },
+    "topbar": {
+        "settings_tooltip": "Display settings",
+        "time_tooltip": "Current time"
+    },
+    "bottom_bar": {
+        "back": "Back",
+        "mods": "Mods",
+        "map_settings": "Map Settings",
+        "start": "Start"
+    },
+    "mods": {
+        "title": "Mods",
+        "close": "Close"
+    },
+    "map_settings": {
+        "title": "Map Settings",
+        "close": "Close"
+    },
+    "display_settings": {
+        "title": "Display Settings",
+        "close": "Close"
+    },
+    "error": {
+        "microphone_stream_failed": "Microphone stream failed."
+    }
+}

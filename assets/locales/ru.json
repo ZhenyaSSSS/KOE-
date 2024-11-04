@@ -1,0 +1,68 @@
+{
+    "menu": {
+        "title": "KOE!",
+        "play": "Играть",
+        "settings": "Настройки",
+        "exit": "Выход"
+    },
+    "settings": {
+        "title": "Настройки",
+        "language": "Язык",
+        "volume": "Громкость",
+        "display_mode": "Режим отображения",
+        "save": "Сохранить",
+        "back": "Назад",
+        "saved": "Настройки сохранены.",
+        "resolution": "Разрешение",
+        "output_device": "Устройство вывода",
+        "input_device": "Устройство ввода",
+        "volume_indicator": "Индикатор громкости",
+        "audio_driver": "Драйвер аудио",
+        "device_name": "Имя устройства",
+        "blur_background": "Размытие фона"
+    },
+    "song_select": {
+        "title": "Выберите песню",
+        "select": "Выбрать",
+        "back": "Назад",
+        "no_song_selected": "Песня не выбрана.",
+        "sort_by": "Сортировать по...",
+        "start": "Начать",
+        "start_game_error": "Ошибка запуска игры.",
+        "select_song_first": "Сначала выберите песню.",
+        "preview_error": "Ошибка загрузки превью."
+    },
+    "results": {
+        "title": "Результаты",
+        "score": "Очки: {score}",
+        "accuracy": "Точность: {accuracy:.2f}%",
+        "max_combo": "Макс Комбо: {max_combo}",
+        "replay": "Повторить",
+        "back_to_menu": "В меню"
+    },
+    "topbar": {
+        "settings_tooltip": "Настройки",
+        "time_tooltip": "Время"
+    },
+    "bottom_bar": {
+        "back": "Назад",
+        "mods": "Моды",
+        "map_settings": "Настройки карты",
+        "start": "Начать"
+    },
+    "mods": {
+        "title": "Моды",
+        "close": "Закрыть"
+    },
+    "map_settings": {
+        "title": "Настройки карты",
+        "close": "Закрыть"
+    },
+    "display_settings": {
+        "title": "Настройки отображения",
+        "close": "Закрыть"
+    },
+    "error": {
+        "microphone_stream_failed": "Ошибка потока микрофона."
+    }   
+}
