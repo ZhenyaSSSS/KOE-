@@ -1,0 +1,38 @@
+pyinstaller --onefile --windowed --icon=assets/icons/koe_icon.ico --add-data "assets;assets"  .\game\main.py
+
+
+py -3.12 -m nuitka --standalone 
+--include-data-dir=assets=assets 
+--include-data-files=.\game\*.dll=.\ 
+--windows-icon-from-ico=assets/icons/koe_icon.ico 
+--windows-product-name="KOE!" 
+--windows-file-version=1.2.0.0 
+--windows-product-version=1.2.0.0 
+--windows-file-description="Rhythm Game KOE!" 
+--windows-company-name="Eugene S" 
+--windows-console-mode=disable   # Изменено с --windows-disable-console
+--show-progress 
+--verbose 
+--msvc=latest 
+--include-package=pyglet 
+--include-package=PIL 
+--include-package=soundfile 
+--include-package=sounddevice 
+--include-package=numpy 
+--include-package=mutagen 
+--include-package=utils 
+--include-package=models 
+--include-package=states 
+--include-package=ui 
+--include-package=controllers 
+--remove-output 
+--assume-yes-for-downloads 
+--jobs=8 
+--lto=yes 
+--static-libpython=no 
+--python-flag=no_site 
+--python-flag=no_warnings 
+--output-dir=main.dist 
+--nofollow-import-to=tkinter 
+--nofollow-import-to=matplotlib 
+.\game\main.py

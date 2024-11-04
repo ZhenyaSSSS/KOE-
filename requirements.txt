@@ -1,0 +1,8 @@
+pyglet
+sounddevice
+numpy
+soundfile
+librosa
+Pillow
+ffpyplayer
+mutagen
