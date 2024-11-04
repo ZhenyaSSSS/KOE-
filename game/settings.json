@@ -1,0 +1,13 @@
+{
+    "language": "ru",
+    "resolution": [
+        1920,
+        1080
+    ],
+    "display_mode": "fullscreen",
+    "microphone": null,
+    "volume": 23,
+    "input_device": null,
+    "output_device": null,
+    "blur_background": true
+}
